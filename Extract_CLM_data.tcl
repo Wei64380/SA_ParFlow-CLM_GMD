@@ -7,14 +7,14 @@ namespace import Parflow::*
 set tcl_precision 16
 pfset FileVersion    4
 
-set runname SA_005
+set runname SA_001
 
 puts "Convert PFB to TXT"
-set Tend 9504
+set Tend 5484
 
 #loop through variables and  write text files
 
-for {set j 1} {$j <=$Tend} {incr j} {
+for {set j 1096} {$j <=$Tend} {incr j} {
             puts "File: $j"
             set fin [format $runname.out.clm_output.%05d.C.pfb $j]
             puts $fin
