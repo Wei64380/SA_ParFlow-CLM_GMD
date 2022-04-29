@@ -5,7 +5,7 @@
 #SBATCH -A project01605
 #SBATCH -J dat_058   
 #SBATCH -n 1   
-#SBATCH --time=2:00:00
+#SBATCH --time=1:00:00
 #SBATCH --export=ALL
 #SBATCH --mem-per-cpu=60000
 #SBATCH --mail-type=End
@@ -35,5 +35,5 @@ mv ./Data_output/drv* .
 mv ./Data_output/metfile.dat .
 mv ./Data_output/ind0.dat .
 
+rm SA*.out.*pfb
 
-rm SA_*.out.*.pfb

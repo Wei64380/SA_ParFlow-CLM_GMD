@@ -162,7 +162,7 @@ for i in np.arange(0,parameters_size[0]):
     shutil.copy('initial_press.pfb',filename37)
 
     filename38 = new_dir + 'metfile.dat'
-    shutil.copy('metfile_LK.dat',filename38)
+    shutil.copy('metfile.dat',filename38)
   
     filename39 = new_dir + 'Stettbach_mask.pfb'
     shutil.copy('Stettbach_mask.pfb',filename39)
